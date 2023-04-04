@@ -1,0 +1,16 @@
+.list-container {
+    background: #fff;
+
+
+    .chat-list-header {
+        padding: 14px;
+        font-size: 24px;
+        background: bisque;
+    }
+
+    .chat-list {
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+        max-height: calc(100vh - 156px);
+    }
+}

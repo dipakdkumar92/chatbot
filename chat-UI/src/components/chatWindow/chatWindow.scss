@@ -1,0 +1,15 @@
+.chat-container {
+    flex: 1;
+    background: grey;
+
+    .chat-header {
+        padding: 14px;
+        font-size: 24px;
+        background: #ffbc6d;
+    }
+    .message-list{
+        overflow-y: hidden;
+        scroll-behavior: smooth;
+        max-height: calc(100vh - 193px);
+    }
+}
